@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_REGISTRY = "your-dockerhub-username"
+        DOCKER_REGISTRY = "sj4065608@gmail.com"
         IMAGE_NAME = "nodejs-app"
         KUBE_CONFIG = credentials('kubeconfig-id') // Replace with Jenkins kubeconfig credential ID
     }
