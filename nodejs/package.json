@@ -1,0 +1,15 @@
+{
+  "name": "cloud-run-starter",
+  "version": "1.0.0",
+  "description": "Simple Express Starter Project for Google Cloud Run",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4"
+  }
+}
